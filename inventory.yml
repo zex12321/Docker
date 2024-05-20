@@ -1,0 +1,27 @@
+all:
+  hosts:
+    ansible1:
+      ansible_user: ansible1
+      ansible_ssh_pass: zahar163
+      ansible_host: 192.168.1.5
+
+    ansible2:
+      ansible_user: ansible2
+      ansible_ssh_pass: zahar163
+      ansible_host: 192.168.1.3
+
+  vars:
+    DB_REPL_HOST: 192.168.1.3
+    DB_REPL_USER: repl_user
+    DB_REPL_PASSWORD: repl_password
+    DB_REPL_PORT: 5433
+    DB_HOST: 192.168.1.5
+    DB_PORT: 5432
+    DB_USER: postgres
+    DB_PASSWORD: 123
+    DB_DATABASE: db
+    TOKEN: 6623592418:AAGW13gcBZj5yhzj627Q_NUoplIFE49-_4M
+    RM_HOST: 192.168.1.5
+    RM_PORT: 22
+    RM_USER: zahar
+    RM_PASSWORD: zahar163
